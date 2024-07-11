@@ -14,9 +14,10 @@ function Card({
     <div className="channelinfo">
     <div className='logo'>
         <img src={LogoImg} alt="logo" className='logo-img' />
-    </div>
-    <div className='channel-name'>
+    
+    <span className='channel-name'>
         {ChannelName}
+    </span>
     </div>
     <div className='subscribe'>
         <button className='sub-btn'>subscribe</button>
@@ -32,13 +33,13 @@ function Card({
   <div className="reactions">
     
     <div className="leftreactions">
-      <button className='like'>like</button>
-      <button className='dislike'>dislike</button>
+      <button className='like'>👍</button>
+      <button className='dislike'>👎</button>
     </div>
 
     <div className="rightreactions">
-      <button className='share'>share</button>
-      <button className='comment'>comment</button>
+      <button className='share'>✈️</button>
+      <button className='comment'>💬</button>
     </div>
   
 
